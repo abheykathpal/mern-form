@@ -10,7 +10,7 @@ function App() {
       phone: document.getElementById("phone").value
     };
 
-    fetch("http://localhost:5000/form",{
+    fetch("https://mern-form-scyo.onrender.com/form",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
